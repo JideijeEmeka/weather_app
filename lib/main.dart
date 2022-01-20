@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
-      getPages: [
+      getPages: [   
         GetPage(
             name: '/', page: () => HomeScreen(), binding: HomeBinding()),
       ],

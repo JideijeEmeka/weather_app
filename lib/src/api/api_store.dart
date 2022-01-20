@@ -6,7 +6,7 @@ class ApiStore {
 
   ApiStore({required this.url, required this.payload});
 
-  final Dio _dio = Dio();
+  final Dio _dio = Dio();    
 
   void get({
     Function()? beforeSend,

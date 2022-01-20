@@ -9,7 +9,7 @@ class Sys {
       {required this.type,
       required this.id,
       required this.country,
-      required this.sunrise,
+      required this.sunrise,   
       required this.sunset});
 
   factory Sys.fromJson(dynamic json) {

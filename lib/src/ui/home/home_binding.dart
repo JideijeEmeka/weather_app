@@ -6,4 +6,4 @@ class HomeBinding implements Bindings {
   void dependencies() {
     Get.lazyPut(() => HomeController(city: 'Enugu'));
   }
-}
+}   
