@@ -22,7 +22,7 @@ class MainWeather {
           temp_min: 0,
           temp_max: 0,
           pressure: 0,
-          humidity: 0);
+          humidity: 0);   
     }
     return MainWeather(
         temp: json['temp'],

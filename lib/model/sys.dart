@@ -2,7 +2,7 @@ class Sys {
   final int type;
   final int id;
   final String country;
-  final int sunrise;
+  final int sunrise;   
   final int sunset;
 
   Sys(
