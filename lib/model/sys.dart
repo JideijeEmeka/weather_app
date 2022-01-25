@@ -3,7 +3,7 @@ class Sys {
   final int id;
   final String country;
   final int sunrise;   
-  final int sunset;
+  final int sunset;   
 
   Sys(
       {required this.type,

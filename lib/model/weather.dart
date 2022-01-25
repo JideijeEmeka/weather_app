@@ -13,7 +13,7 @@ class Weather {
   factory Weather.fromJson(dynamic json) {
     if (json == null) {
       return Weather(id: 0, main: '', description: '', icon: '');
-    }
+    }   
 
     return Weather(
         id: json['id'],

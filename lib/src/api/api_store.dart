@@ -9,7 +9,7 @@ class ApiStore {
   final Dio _dio = Dio();    
 
   void get({
-    Function()? beforeSend,
+    Function()? beforeSend,   
     Function(dynamic data)? onSuccess,
     Function(dynamic onError)? onError,
   }) {
