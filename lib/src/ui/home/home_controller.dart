@@ -14,7 +14,7 @@ class HomeController extends GetxController {
   void onInit() {
     initState();
     super.onInit();
-  }   
+  }
 
   void initState() {
     WeatherService(city: '$city').getCurrentWeatherData(onSuccess: (data) {
